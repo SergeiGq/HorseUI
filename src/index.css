@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: blue;
+}
+
+.startContainer{
+  display: flex;
+background: cornflowerblue;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+
+}
+.btnDel{
+  border-radius: 30px;
+  background: red;
+  text-align: center;
+  padding: 8px 10px;
+  border: solid 1px #777777;
+  color: white;
+  background:red;
+  tansition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  text-transform: uppercase;
+}
+
+
+.btn{
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  background: green;
+  color: white;
+}
+.itemerror{
+  color: red;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.item{
+  padding-bottom: 40px;
+}
+.container{
+  display: flex;
+
+padding-bottom: 10px;
+}
+.containerCol{
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: springgreen;
+height: auto;
+  justify-content: center;
+}
+.itemTitle{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+img{
+  width: 50%;
+  height: auto;
+
+}
+
+
